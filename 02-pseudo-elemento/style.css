@@ -1,0 +1,43 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+/* este elemento nao funcina para tags 
+inline
+
+ao inves de um seletor antes do pseudo elemento pode usar class=" " ou id=" " 
+
+first-line funciona até quando a tela do browser aumenta e diminui */
+
+p::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: blue;
+}
+
+li::marker{
+    color: red;
+    font-size: 30px;
+}
+
+ol li::before{
+    content: url(/02-pseudo-elemento/image/Screenshot_7.png);
+}
+
+h3::before{
+    display: inline-block;
+    content: "";
+    background: url(/02-pseudo-elemento/image/Screenshot_7.png)  no-repeat;
+    width: 28px ;
+    height: 28px;
+}
+
+h2::after{
+    display: inline-block;
+    content: "";
+    background: url(/02-pseudo-elemento/image/Screenshot_7.png)  no-repeat;
+    width: 28px ;
+    height: 28px;
+}

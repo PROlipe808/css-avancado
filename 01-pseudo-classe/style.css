@@ -1,0 +1,42 @@
+p:not(.negado){
+    color: yellow;
+}
+
+p:first-child{
+    color: aqua;
+}
+
+p:last-child {
+    color: #ff0000;
+}
+
+p:nth-child(even){
+    color: blue;
+}
+
+
+li:nth-child(odd){
+    color: #ff0000;
+}
+
+li:nth-child(2n){
+    color: blueviolet;
+}
+
+li:nth-child(n+5):nth-child(-n+7){
+    color: green
+}
+
+li:nth-last-child(1){
+    color: yellow;
+}
+
+li:only-child{
+    color: white;
+    background-color: mediumblue;
+    width: 99px;
+}
+
+li {
+font-size: xx-large;
+}
