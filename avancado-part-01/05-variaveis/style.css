@@ -1,0 +1,30 @@
+:root{
+    --cor-textos: green ;
+    --tamanho-fonte:40px;
+
+}
+
+h2 {
+    --cor-: blue ;
+    --tamanho-fonte:80px;
+
+    color:var(--cor-textos, red );
+    font-size:var(--tamanho-fonte,199px);
+    background-color: var(--cor-);
+
+}
+
+h3{
+    color: var(--cor-textos,blue);
+    font-size: var(--tamanho-fonte);
+}
+
+p{
+    color: var(--cor-textos);
+    font-size: var(--tamanho-fonte);
+}
+
+span{
+    color: var(--cor-textos);
+    font-size: var(--tamanho-fonte);
+}

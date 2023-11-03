@@ -1,0 +1,55 @@
+* {
+    font-size: 30px;
+    margin: 12px;
+}
+
+
+.classe {
+    color: blue;
+}
+
+#id {
+    color: green;
+}
+
+.titulo.marron{
+    color: brown;
+}
+
+.titulo.verde {
+    color: darkgreen;
+}
+
+.duasClasses {
+    background-color: blueviolet;
+}
+ 
+
+.A, .B {
+    color: white;
+}
+
+.B + li {
+    color: aqua;
+}
+
+.pai li {
+    background-color: coral;
+}
+
+.pai .filho::first-line {
+    color: red;
+}
+
+.filho-com-virgula,.pai::first-line {
+    color: red;
+}
+
+.pai > .maior {
+    color: yellow;
+}  
+
+
+a[target="_blank"]{
+    color: blue;
+}
