@@ -1,0 +1,22 @@
+.conteiner div{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.conteiner.direction{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.conteiner.wrap{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.conteiner.flow{
+    display: flex;
+    flex-flow: column-reverse;
+}
