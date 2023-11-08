@@ -1,0 +1,29 @@
+
+.flex img {
+    max-width: 100%;
+}
+
+.flex {
+    background-color: lightslategrey;
+    display: flex;
+    width: 960px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.coluna {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 250px;
+}
+
+
+.botao{
+    align-self: flex-start;
+    margin-top: auto;
+}

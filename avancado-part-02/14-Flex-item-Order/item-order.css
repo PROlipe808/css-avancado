@@ -1,0 +1,19 @@
+.flex{
+    flex: 1;
+}
+
+.item3{
+    order: -5;
+}
+.item4{
+    order: -4;
+}
+
+.item2{
+    order: -3;
+}
+
+.item5{
+    order: -2;
+}
+

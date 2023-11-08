@@ -1,0 +1,15 @@
+.align-self .item1{
+    align-self: flex-start;
+}
+.align-self .item2{
+    align-self: flex-end;
+}
+.align-self .item3{
+    align-self: center;
+}
+.align-self .item4{
+    align-self: stretch;
+}
+.align-self .item5{
+    align-self: auto;
+}

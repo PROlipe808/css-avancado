@@ -1,0 +1,33 @@
+.grow-1{
+    flex-grow: 1;
+}
+
+.shrink-0{
+    flex-shrink: 0;
+}
+
+.shrink-1{
+    flex-shrink: 1;
+}
+.shrink-2{
+    flex-shrink: 2;
+}
+.shrink-3{
+    flex-shrink: 3;
+}
+
+.shrink-300{
+    flex-shrink: 300;
+}
+
+.shrink .item {
+    height: 100px;
+    width: 200px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+
